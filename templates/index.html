@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Axa telematic - Drivers dataviz</title>
+    <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+<div class="driver-select">
+    ID driver:
+    <input id="driverSelect" name="driver" type="text" value="1"/>
+    <input type="submit" onclick="drawDriver(document.getElementById('driverSelect').value)"/>
+</div>
+<div class="datavis"></div>
+
+<script src="/static/js/d3.v3.min.js" charset="utf-8"></script>
+<script src="/static/js/main.js" charset="utf-8"></script>
+</body>
+</html>
