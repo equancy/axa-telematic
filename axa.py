@@ -23,11 +23,6 @@ def data(driver_id):
 def hello():
     return render_template('index.html')
 
-@app.route('/update')
-def update():
-    return render_template('update.html')
-
-
 if __name__ == '__main__':
     app.config.from_object('config.DevelopmentConfig')
     app.run()
